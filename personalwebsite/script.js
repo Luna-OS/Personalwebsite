@@ -1,17 +1,9 @@
-// Überprüfe, ob ein Hash in der URL vorhanden ist
-if (window.location.hash) {
-    // Extrahiere den Hash-Wert aus der URL
-    var hash = window.location.hash.substring(1);
 
-    // Überprüfe, ob der Hash mit "personalwebsite" übereinstimmt
-    if (hash === "personalwebsite") {
-        // Ändere den Hash-Wert auf den gewünschten Wert
+if (window.location.hash) {
+    var hash = window.location.hash.substring(1);
+    if (hash === "personalwebsite") {  
         window.location.hash = "personalwebsitejoa";
-    {
-    // Überprüfe, ob der Hash mit "personalwebsitejoa" übereinstimmt
     } else if (hash === "personalwebsitejoa") {
-        // Ändere den Hash-Wert auf den gewünschten Wert
         window.location.hash = "personalwebsite";
     }
-}
 }
