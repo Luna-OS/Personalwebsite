@@ -7,5 +7,11 @@ if (window.location.hash) {
     if (hash === "personalwebsite") {
         // Ändere den Hash-Wert auf den gewünschten Wert
         window.location.hash = "personalwebsitejoa";
+    {
+    // Überprüfe, ob der Hash mit "personalwebsitejoa" übereinstimmt
+    } else if (hash === "personalwebsitejoa") {
+        // Ändere den Hash-Wert auf den gewünschten Wert
+        window.location.hash = "personalwebsite";
     }
+}
 }
